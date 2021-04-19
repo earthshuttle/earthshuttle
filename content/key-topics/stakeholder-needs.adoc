@@ -1,0 +1,12 @@
+
+---
+title: "Stakeholder Needs"
+weight: -10
+---
+
+Earthshuttles are predicated upon addressing six fundamental human needs
+
+[plantuml, stakeholder-needs-human, svg]
+....
+include::architecture/stakeholder-needs-human.puml[]
+....
