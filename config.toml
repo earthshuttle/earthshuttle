@@ -1,3 +1,36 @@
 baseURL = "http://spacecoop.github.io/earthshuttle"
-languageCode = "en-us"
 title = "Earthshuttle"
+theme = "geekdoc"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+timeout = 180000
+pluralizeListTitles = false
+
+# Geekdoc configuration
+disablePathToLower = false
+enableGitInfo = false
+
+# Needed for mermaid shortcodes
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe  = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 9
+  [markup.asciidocext]
+    extensions  = ["asciidoctor-diagram"]
+    workingFolderCurrent  = true
+    trace  = true
+
+[params]
+  # geekdocMenuBundle = true
+  geekdocToC = 3
+
+  geekdocRepo = "https://github.com/spacecoop/earthshuttle"
+  geekdocEditPath = "edit/main/docs/content"
+
+  geekdocSearch = true
+  geekdocSearchShowParent = true
+
+  geekdocImageLazyLoading = true
