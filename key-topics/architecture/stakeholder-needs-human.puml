@@ -1,0 +1,57 @@
+@startuml
+
+left to right direction
+skinparam linetype polyline
+
+!startsub A1
+actor a1 <<stakeholder>> as "
+Human
+"
+!endsub
+
+!startsub C1
+rectangle c1 <<need>> as "
+Food
+"
+!endsub
+
+!startsub C2
+rectangle c2 <<need>> as "
+Energy
+"
+!endsub
+
+!startsub C3
+rectangle c3 <<need>> as "
+Clean water
+"
+!endsub
+
+!startsub C4
+rectangle c4 <<need>> as "
+Garbage management
+"
+!endsub
+
+!startsub C5
+rectangle c5 <<need>> as "
+Shelter
+"
+!endsub
+
+!startsub C6
+rectangle c6 <<need>> as "
+Sewage treatment
+"
+!endsub
+
+!startsub RELATIONSHIPS
+a1 -- c1
+a1 -- c2
+a1 -- c3
+a1 -- c4
+a1 -- c5
+a1 -- c6
+!endsub
+
+@enduml
