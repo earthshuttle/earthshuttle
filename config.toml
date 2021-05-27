@@ -1,4 +1,4 @@
-baseURL = "https://spacecoop.github.io/earthshuttle"
+baseURL = "https://earthshuttle.github.io/"
 title = "Earthshuttle"
 theme = "geekdoc"
 pygmentsUseClasses = true
@@ -27,7 +27,7 @@ enableGitInfo = false
   # geekdocMenuBundle = true
   geekdocToC = 3
 
-  geekdocRepo = "https://github.com/spacecoop/earthshuttle"
+  geekdocRepo = "https://github.com/earthshuttle/earthshuttle.github.io"
   geekdocEditPath = "edit/main/docs/content"
 
   geekdocSearch = true
